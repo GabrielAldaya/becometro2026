@@ -8,7 +8,8 @@ public class CounterManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI counterText;
     [SerializeField] GameObject endPanelGO;
     [SerializeField] GameObject counterGO;
-
+    [SerializeField] GameObject titleGO;
+    [SerializeField] GameObject becasGO;
     [SerializeField] Animation counterAnimation;
 
     private int counterCurrent;
@@ -25,19 +26,23 @@ public class CounterManager : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             counterCurrent++;
             UpdateCounter();
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            if (counterCurrent == 0)
+            {
+                return;
+            }
             counterCurrent--;
-            UpdateCounter();
+            counterText.text = counterCurrent.ToString();
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            endPanelGO.SetActive(true);
+            EndPanel();
         }
     }
 
@@ -47,5 +52,21 @@ public class CounterManager : MonoBehaviour
         counterText.text=counterCurrent.ToString();
     }
 
-
+    private void EndPanel()
+    {
+        if (endPanelGO.activeInHierarchy)
+        {
+            endPanelGO.SetActive(false);
+            titleGO.SetActive(true);
+            becasGO.SetActive(true);
+            counterGO.SetActive(true);
+        }
+        else
+        {
+            endPanelGO.SetActive(true);
+            titleGO.SetActive(false);
+            becasGO.SetActive(false);
+            counterGO.SetActive(false);
+        }
+    }
 }

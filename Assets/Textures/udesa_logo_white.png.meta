@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 72e3f357e058a8546be187be75dadf17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1471234115052435239
+    second: udesa_logo_white_0
+  - first:
+      213: 5993242848867962782
+    second: udesa_logo_white_1
+  - first:
+      213: 5022355350601598344
+    second: udesa_logo_white_2
+  - first:
+      213: 7721339884200510666
+    second: udesa_logo_white_3
+  - first:
+      213: -4640368641298837708
+    second: udesa_logo_white_4
+  - first:
+      213: -8791320499651300212
+    second: udesa_logo_white_5
+  - first:
+      213: -7019840821835885533
+    second: udesa_logo_white_6
+  - first:
+      213: -4989488754887810919
+    second: udesa_logo_white_7
+  - first:
+      213: -3191544600003968206
+    second: udesa_logo_white_8
+  - first:
+      213: 2575641146179179546
+    second: udesa_logo_white_9
+  - first:
+      213: -8409746337876257681
+    second: udesa_logo_white_10
+  - first:
+      213: -1571842750912236891
+    second: udesa_logo_white_11
+  - first:
+      213: -4965319728232753958
+    second: udesa_logo_white_12
+  - first:
+      213: -4617432691348831149
+    second: udesa_logo_white_13
+  - first:
+      213: -4363722035071585136
+    second: udesa_logo_white_14
+  - first:
+      213: 689419835337025754
+    second: udesa_logo_white_15
+  - first:
+      213: -7684581335851432851
+    second: udesa_logo_white_16
+  - first:
+      213: -4209567240200320778
+    second: udesa_logo_white_17
+  - first:
+      213: 1106205740193337050
+    second: udesa_logo_white_18
+  - first:
+      213: 99087089430406449
+    second: udesa_logo_white_19
+  - first:
+      213: 3881932555865329887
+    second: udesa_logo_white_20
+  - first:
+      213: 6737708316780042525
+    second: udesa_logo_white_21
+  - first:
+      213: 8541319217772727045
+    second: udesa_logo_white_22
+  - first:
+      213: 3365911391768390363
+    second: udesa_logo_white_23
+  - first:
+      213: -2742989123481191449
+    second: udesa_logo_white_24
+  - first:
+      213: -2901724352556070270
+    second: udesa_logo_white_25
+  - first:
+      213: 1408318108825288487
+    second: udesa_logo_white_26
+  - first:
+      213: 8037934070209633903
+    second: udesa_logo_white_27
+  - first:
+      213: 7312563714021102507
+    second: udesa_logo_white_28
+  - first:
+      213: 6309427401956750469
+    second: udesa_logo_white_29
+  - first:
+      213: -1919035099618632008
+    second: udesa_logo_white_30
+  - first:
+      213: -5185043734658740263
+    second: udesa_logo_white_31
+  - first:
+      213: -1068058782608354371
+    second: udesa_logo_white_32
+  - first:
+      213: -2623342021544652467
+    second: udesa_logo_white_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: udesa_logo_white_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 284
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d80dd60e50259be0800000000000000
+      internalID: -1471234115052435239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 398
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fcc631e964c2350800000000000000
+      internalID: 5993242848867962782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 235
+        width: 197
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8850460f49df2b540800000000000000
+      internalID: 5022355350601598344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 284
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c3db17b5b72b60800000000000000
+      internalID: 7721339884200510666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 398
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f45847e491a9fb0800000000000000
+      internalID: -4640368641298837708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 259
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84bcaf7594fef580800000000000000
+      internalID: -8791320499651300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 222
+        width: 148
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3249faa17f3849e90800000000000000
+      internalID: -7019840821835885533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 213
+        width: 255
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9902b12b966c1cab0800000000000000
+      internalID: -4989488754887810919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 222
+        width: 148
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23382f7881b55b3d0800000000000000
+      internalID: -3191544600003968206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 259
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14d3e2e9f38eb320800000000000000
+      internalID: 2575641146179179546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_10
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 180
+        width: 230
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f645ebf23449a4b80800000000000000
+      internalID: -8409746337876257681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 114
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a27a159851bf2ae0800000000000000
+      internalID: -1571842750912236891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 143
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4927ab304a71bb0800000000000000
+      internalID: -4965319728232753958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 143
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35480e17e659befb0800000000000000
+      internalID: -4617432691348831149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_14
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 114
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0947309dde1f073c0800000000000000
+      internalID: -4363722035071585136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_15
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 114
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad82f5200bf419900800000000000000
+      internalID: 689419835337025754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 114
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d648afc5df1ea5590800000000000000
+      internalID: -7684581335851432851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 115
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80db5f5ec9495c0800000000000000
+      internalID: -4209567240200320778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_18
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 115
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adec8b082480a5f00800000000000000
+      internalID: 1106205740193337050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 114
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135a35fce27006100800000000000000
+      internalID: 99087089430406449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_20
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 114
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0906a97156fd530800000000000000
+      internalID: 3881932555865329887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_21
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 115
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d199ed52406218d50800000000000000
+      internalID: 6737708316780042525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 114
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b8f80239cd88670800000000000000
+      internalID: 8541319217772727045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 115
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaabc3d39e16be20800000000000000
+      internalID: 3365911391768390363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_24
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 114
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebb428dce1fee9d0800000000000000
+      internalID: -2742989123481191449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_25
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 114
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a8bc943110bb7d0800000000000000
+      internalID: -2901724352556070270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff74fbbd95b8310800000000000000
+      internalID: 1408318108825288487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2
+        width: 232
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6edad6337a7c8f60800000000000000
+      internalID: 8037934070209633903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_28
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba393ab44f17b7560800000000000000
+      internalID: 7312563714021102507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 68
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5847fb51bc69f8750800000000000000
+      internalID: 6309427401956750469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be99bf8eb73e55e0800000000000000
+      internalID: -1919035099618632008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_31
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df0dc2e1360b08b0800000000000000
+      internalID: -5185043734658740263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_32
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3946f223e7d21f0800000000000000
+      internalID: -1068058782608354371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: udesa_logo_white_33
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41d9799454089bd0800000000000000
+      internalID: -2623342021544652467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      udesa_logo_white_0: -1471234115052435239
+      udesa_logo_white_1: 5993242848867962782
+      udesa_logo_white_10: -8409746337876257681
+      udesa_logo_white_11: -1571842750912236891
+      udesa_logo_white_12: -4965319728232753958
+      udesa_logo_white_13: -4617432691348831149
+      udesa_logo_white_14: -4363722035071585136
+      udesa_logo_white_15: 689419835337025754
+      udesa_logo_white_16: -7684581335851432851
+      udesa_logo_white_17: -4209567240200320778
+      udesa_logo_white_18: 1106205740193337050
+      udesa_logo_white_19: 99087089430406449
+      udesa_logo_white_2: 5022355350601598344
+      udesa_logo_white_20: 3881932555865329887
+      udesa_logo_white_21: 6737708316780042525
+      udesa_logo_white_22: 8541319217772727045
+      udesa_logo_white_23: 3365911391768390363
+      udesa_logo_white_24: -2742989123481191449
+      udesa_logo_white_25: -2901724352556070270
+      udesa_logo_white_26: 1408318108825288487
+      udesa_logo_white_27: 8037934070209633903
+      udesa_logo_white_28: 7312563714021102507
+      udesa_logo_white_29: 6309427401956750469
+      udesa_logo_white_3: 7721339884200510666
+      udesa_logo_white_30: -1919035099618632008
+      udesa_logo_white_31: -5185043734658740263
+      udesa_logo_white_32: -1068058782608354371
+      udesa_logo_white_33: -2623342021544652467
+      udesa_logo_white_4: -4640368641298837708
+      udesa_logo_white_5: -8791320499651300212
+      udesa_logo_white_6: -7019840821835885533
+      udesa_logo_white_7: -4989488754887810919
+      udesa_logo_white_8: -3191544600003968206
+      udesa_logo_white_9: 2575641146179179546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
