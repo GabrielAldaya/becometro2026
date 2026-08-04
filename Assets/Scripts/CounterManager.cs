@@ -12,6 +12,8 @@ public class CounterManager : MonoBehaviour
     [SerializeField] GameObject titleGO;
     [SerializeField] GameObject becasGO;
     [SerializeField] Animation counterAnimation;
+    [SerializeField] Animation becasTextAnimation;
+    [SerializeField] Animation becasTotalesAnimation;
     [SerializeField] VideoPlayer videoPlayer;
     [SerializeField] GameObject bgImage;
     [SerializeField] RawImage videoTexture;
@@ -20,24 +22,23 @@ public class CounterManager : MonoBehaviour
 
     void OnEnable()
     {
-        // Subscribe to the event
         videoPlayer.loopPointReached += OnVideoFinished;
     }
 
     void OnDisable()
     {
-        // Unsubscribe to prevent memory leaks
         videoPlayer.loopPointReached -= OnVideoFinished;
     }
 
     void OnVideoFinished(VideoPlayer source)
     {
         bgImage.SetActive(true);
-        //videoPlayer.gameObject.SetActive(false);
         videoTexture.gameObject.SetActive(false);
         videoPlayer.Pause();
         videoPlayer.time = 0;
         counterGO.SetActive(true);
+        becasTotalesAnimation.gameObject.SetActive(false);
+        becasTextAnimation.gameObject.SetActive(true);
     }
 
     void Start()
@@ -45,12 +46,7 @@ public class CounterManager : MonoBehaviour
         counterCurrent = 0;
         videoPlayer.playOnAwake = false;
         videoPlayer.waitForFirstFrame = true;
-
         videoPlayer.Prepare();
-        //videoTexture.color = new Color(1, 1, 1, 0);
-        //videoPlayer.sendFrameReadyEvents = true;
-
-        //videoPlayer.frameReady += OnFrameReady;
     }
 
     void Update()
@@ -67,6 +63,8 @@ public class CounterManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            becasTotalesAnimation.gameObject.SetActive(false);
+            becasTextAnimation.gameObject.SetActive(true);
             if (counterCurrent == 0)
             {
                 return;
@@ -74,9 +72,15 @@ public class CounterManager : MonoBehaviour
             counterCurrent--;
             counterText.text = counterCurrent.ToString();
         }
+        if (Input.GetKeyDown(KeyCode.UpArrow)){
+            PlayBecasAnimation();
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow)){
+            PlayBecasTotalesAnimation();
+        }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            EndPanel();
+            //EndPanel();
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
@@ -92,6 +96,20 @@ public class CounterManager : MonoBehaviour
     {
         counterAnimation.Play();
         counterText.text=counterCurrent.ToString();
+    }
+
+    private void PlayBecasAnimation()
+    {
+        becasTotalesAnimation.gameObject.SetActive(false);
+        becasTextAnimation.gameObject.SetActive(true);
+        becasTextAnimation.Play();
+    }
+
+    private void PlayBecasTotalesAnimation()
+    {
+        becasTextAnimation.gameObject.SetActive(false);
+        becasTotalesAnimation.gameObject.SetActive(true);
+        becasTotalesAnimation.Play();
     }
 
     private void EndPanel()
@@ -119,7 +137,6 @@ public class CounterManager : MonoBehaviour
             videoPlayer.time = 0;
             bgImage.SetActive(false);
             counterGO.SetActive(false);
-            //videoPlayer.gameObject.SetActive(true);
             videoTexture.color = new Color(1, 1, 1, 1);
             videoTexture.gameObject.SetActive(true);
             videoPlayer.Play();
@@ -136,8 +153,6 @@ public class CounterManager : MonoBehaviour
             videoPlayer.Pause();
             videoPlayer.time = 0;
             videoTexture.color = new Color(1, 1, 1, 0);
-            //videoPlayer.gameObject.SetActive(false);
-
         }
     }
 
