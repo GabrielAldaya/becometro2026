@@ -134,6 +134,8 @@ public class CounterManager : MonoBehaviour
     {
         if (!videoPlayer.isPlaying)
         {
+            becasTotalesAnimation.gameObject.SetActive(false);
+            becasTextAnimation.gameObject.SetActive(false);
             videoPlayer.time = 0;
             bgImage.SetActive(false);
             counterGO.SetActive(false);
@@ -153,6 +155,8 @@ public class CounterManager : MonoBehaviour
             videoPlayer.Pause();
             videoPlayer.time = 0;
             videoTexture.color = new Color(1, 1, 1, 0);
+            becasTotalesAnimation.gameObject.SetActive(false);
+            becasTextAnimation.gameObject.SetActive(false);
         }
     }
 
